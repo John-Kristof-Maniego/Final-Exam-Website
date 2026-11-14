@@ -1,0 +1,128 @@
+/* ----- Main Web Format ----- */
+
+/*Background*/
+body {
+    font-family: "Gill Sans MT", serif;
+}
+
+/*Header Section*/
+.web-background {
+    background-image: linear-gradient(#250019, #000000, #1e0042);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head-bar {
+    display: flex;
+    margin: 20px auto 20px auto;
+    background-color: #ffeafa;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.head-bar span {
+    font-size: 25px;
+    font-family: "Gill Sans MT Condensed", serif;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-buttons button {
+    font-size: 20px;
+    font-family: "Gill Sans MT Condensed", serif;
+
+    background-color: #ffacd3;
+    border-width: 0;
+    margin: 0 0px 0 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+#current-page-button{
+    background-color: #ff3390;
+}
+
+/*Main Content Section*/
+.main-box {
+    margin: 20px auto 20px auto;
+    background-color: #ffeafa;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+
+    font-size: 20px;
+}
+
+.main-box h1 {
+    font-size: 67px;
+    text-align: center;
+}
+
+.main-box h2 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.foot-bar {
+    color: white;
+    margin: 20px auto 20px auto;
+    max-width: 1000px;
+}
+
+.content-justified {
+    display: flex;
+    margin: 0;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.content-justified button {
+    width: 45%;
+    height: 200px;
+    margin: 0 auto 20px auto;
+}
+
+
+
+/*Formats*/
+
+#indent {
+    text-indent: 50px;
+}
+
+.image-block {
+    display: block;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px 0 black;
+}
+
+#fill-button {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 0 10px 0 black;
+
+    border: 0;
+    border-radius: 10px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+#center {
+    margin: 0 auto 0 auto;
+}
+
+#text-center p{
+    text-align: center;
+}
+
+#image-circle{
+    border-radius: 50%;
+}
